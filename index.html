@@ -1,0 +1,137 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту странницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>It's Poker, baby</title>
+	<meta charset="UTF-8">
+	<style>
+		body {
+			background-color: cyan;
+		}
+
+		.frame_top {
+			background: url(img/top.gif) 0 0 repeat-x;
+			background-color: white;
+		}
+
+		.frame_right {
+			background: url(img/right.gif) 100% 0 repeat-y;
+		}
+
+		.frame_bottom {
+			background: url(img/bot.gif) 0 100% repeat-x;
+		}
+
+		.frame_left {
+			background: url(img/left.gif) 0 0 repeat-y;
+		}
+
+		.frame_top_left {
+			background: url(img/frame-left-top.gif) 0 0 no-repeat;
+		}
+
+		.frame_top_right {
+			background: url(img/frame-right-top.gif) 100% 0 no-repeat;
+		}
+
+		.frame_bottom_left {
+			background: url(img/frame-left-bot.gif) 0 100% no-repeat;
+		}
+
+		.frame_bottom_right {
+			background: url(img/frame-right-bot.gif) 100% 100% no-repeat;
+			padding: 60px 70px;
+		}
+
+		.definition {
+			font-weight: bold;
+		}
+
+		.case_card {
+			border: 3px solid green;
+			padding: 20px;
+		}
+
+		.card {
+			width: 140px;
+			height: 190px;
+			display: inline-block;
+			background-image: url(img/cards.png);
+			background-repeat: no-repeat;
+		}
+
+		.first_card_position {
+			background-position: 0px -2330px;
+		}
+
+		.second_card_position {
+			background-position: -145px -2135px;
+		}
+
+		.third_card_position {
+			background-position: -290px -1940px;
+		}
+
+		.fourth_card_position {
+			background-position: -435px -1745px;
+		}
+
+		.fifth_card_position {
+			background-position: -145px -1550px;
+		}
+	</style>
+</head>
+<!-- Отображает тело страницы -->
+
+<body>
+	<!--Рамка вверху-->
+	<div class="frame_top">
+		<!--Рамка справа-->
+		<div class="frame_right">
+			<!--Рамка снизу-->
+			<div class="frame_bottom">
+				<!--Рамка слева-->
+				<div class="frame_left">
+					<!--Левый верхний угол-->
+					<div class="frame_top_left">
+						<!--Правый верхний угол-->
+						<div class="frame_top_right">
+							<!--Нижний левый угол-->
+							<div class="frame_bottom_left">
+								<!--Нижний правый угол-->
+								<div class="frame_bottom_right">
+									<h1>Покер</h1>
+									<p><span class="definition">По́кер</span> (англ. poker) - карточная игра, цель которой — выиграть
+										ставки, собрав как можно более высокую покерную комбинацию, используя 4 (старый классический
+										вариант), или 5 карт, или вынудив всех соперников прекратить участвовать в игре. Игра идёт с
+										полностью или частично закрытыми картами. Конкретные правила могут варьироваться в зависимости от
+										разновидности покера. Обобщающими элементами всех разновидностей покера являются комбинации и
+										наличие торговли в процессе игры.</p>
+									<p>Ввиду того, что игрок не знает карты своих противников, покер является игрой с неполной
+										информацией, как и многие другие карточные игры, в отличие от, например, шахмат, в которых оба
+										игрока видят положение всех фигур на доске.</p>
+									<h2>Комбинация в покере &#8212; стрит</h2>
+									<!--Блок с зеленой границей-->
+									<div class="case_card">
+										<div class="card first_card_position"></div>
+										<div class="card second_card_position"></div>
+										<div class="card third_card_position"></div>
+										<div class="card fourth_card_position"></div>
+										<div class="card fifth_card_position"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
